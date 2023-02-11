@@ -1,0 +1,21 @@
+body {
+	font-size: 20;
+}
+
+#login {
+	display: none;
+}
+
+.main {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.mom {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

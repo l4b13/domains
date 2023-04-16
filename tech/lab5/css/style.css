@@ -3,6 +3,10 @@
     background-color: #1A1E21;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .nav_link {
     text-decoration: none;
     color: inherit;
@@ -14,72 +18,39 @@
 
 .menu {
     display: inline-block;
+    justify-content: flex-end;
 }
 
 .descs {
     background-color: #E0C46F;
 }
 
-header {
+.header {
     background-color: #E0C46F;
+    display: flex;
 }
 
 .content {
-    margin: auto;
+    margin-left: 18.75%;
+    margin-right: 18.75%;
     width: 1200;
+    align-items: center;
+    
 }
 
-a {
-    color: rgb(255, 255, 255);
-}
-.header, footer {
-    height: 50px;
-    color: black;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.header {
-    font-size: 0;
-    margin: auto;
-  }
-.logo {
-    font-size: 20px;
-    width: 200px;
+.bio {
     display: inline-block;
+    background-color: #E0C46F;
 }
-.menu {
-    font-size: 16px;
+.appearance {
     display: inline-block;
+    background-color: #E0C46F;
 }
-.menu li {
-    margin-right: 5px;
-    display: inline;
-}
-.columns {
-    width: 800px;
-    margin: 50px auto;
-    font-size: 0;
-}
-.left {
-    width: 200px;
-    margin-right: 10px;
-    background-color: black;
-    box-sizing: border-box;
-    padding: 20px;
-    font-size: 16px;
-    vertical-align: top;
+.personality {
     display: inline-block;
+    background-color: #E0C46F;
 }
-.right {
-    width: 590px;
-    border: 2px solid black;
-    box-sizing: border-box;
-    padding: 20px;
-    font-size: 16px;
-    vertical-align: top;
-    display: inline-block;
-}
-.left a {
-    margin-top: 5px;
-    display: block;
+
+.info {
+    display: flex;
 }

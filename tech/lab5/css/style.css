@@ -1,0 +1,85 @@
+.page {
+    font-family: sans-serif;
+    background-color: #1A1E21;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.descs {
+    background-color: #E0C46F;
+}
+
+header {
+    background-color: #E0C46F;
+}
+
+.content {
+    margin: auto;
+    width: 1200;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+.header, footer {
+    height: 50px;
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.header {
+    font-size: 0;
+    margin: auto;
+  }
+.logo {
+    font-size: 20px;
+    width: 200px;
+    display: inline-block;
+}
+.menu {
+    font-size: 16px;
+    display: inline-block;
+}
+.menu li {
+    margin-right: 5px;
+    display: inline;
+}
+.columns {
+    width: 800px;
+    margin: 50px auto;
+    font-size: 0;
+}
+.left {
+    width: 200px;
+    margin-right: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+}
+.right {
+    width: 590px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+}
+.left a {
+    margin-top: 5px;
+    display: block;
+}

@@ -25,9 +25,10 @@ ul {
     background-color: #E0C46F;
 }
 
-.header {
+header {
     background-color: #E0C46F;
     display: flex;
+    position: sticky;
 }
 
 .content {

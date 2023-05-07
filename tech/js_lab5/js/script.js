@@ -59,20 +59,41 @@ console.log(user2.isAdmin());
 
 // Задание 7
 console.log("Задание 7");
-const etherium7 = {
-  usd: 2811,
-  rub: 200612,
-  eur: 2666
+class AreaOfCircle {
+  constructor(radius) {
+    this.radius = radius;
+    this.area = radius * radius * 3.1415296;
+  }
+  get radius() {
+    return this._area;  
+  }
+  set radius(radius) {
+    this._radius = radius;
+    this._area = radius * radius * 3.1415296;
+  }
 };
-const getRate7 = key => etherium[key];
-console.log(getRate("usd"));
+const area = new AreaOfCircle(2);
+console.log(area.radius);
+area.radius = 10;
+console.log(area.radius);
 
 // Задание 8
 console.log("Задание 8");
-const etherium8 = {
-  usd: 2811,
-  rub: 200612,
-  eur: 2666
+class Course {
+  constructor(mark) {
+    this.mark = mark;
+  }
+  set mark(mark) {
+    this._mark = mark;
+  }
+  getGrade() {
+    return this._mark > 3 ? true : false;
+  }
+  getCertificate() {
+    return this.getGrade() ? "Выдать сертификат" : "Курс не пройден";
+  }
 };
-const getRate8 = key => etherium[key];
-console.log(getRate("usd"));
+const course = new Course(5);
+console.log(course.getCertificate());
+course.mark = 3;
+console.log(course.getCertificate());

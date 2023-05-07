@@ -3,8 +3,10 @@
 /*тут ваш keyframe код*/
 @keyframes circle 
 {
-	100% { transform:rotate(360deg); }
-  }
+	100% { 
+		transform:rotate(360deg); 
+	}
+}
 .page {
   /* эти единицы измерения мы изучим чуть позже */
 	width: 100vw;
